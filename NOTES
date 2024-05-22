@@ -1,0 +1,41 @@
+
+; //need a text input box/prompt to enter player name
+
+;   //var name = prompt('Enter your name') or field to input user name with a submit button
+
+; //do an onclick function for the submit button and get the text value from the player name field
+
+; //add notes on top of each code to explain what we need step by step
+
+; //write the logic to work as follows 
+;// if player choice === computer choice = is a tie
+; //if player click rock and computer chooses paper then=computer wins 
+; //If player chose rock and computer chose scissors then=player wins 
+; //if player choses paper and computer chooses rock then=player wins
+; //if player chooses paper and computer chooses scissors=computer wins 
+; //if player chooses scissors and computer chooses paper=player wins 
+; if player chooses scossors and  computer chooses rock= computer wins 
+
+; //STEPS
+; Rock Paper Scissors game 
+
+; 1.	Player will play against a computer 
+; a.	Create computer player 
+; b.	Create player one 
+; 2.	Create a text input field to enter player name
+; a.	upon name has been entered the name will be stored as player name 
+; b.	Create a input for player name 
+; c.	Create field display for player name to reflect on screen 
+; 3.	On screen, player will have 3 buttons [‘rock’, ‘paper’, ‘scissors’]
+; 4.	User will click one of the button selection 
+; 5.	Upon user event ‘click’- 
+; a.	create a click event listener for the buttons
+; 6.	Computer will pick a random button selection
+; a.	Create function with  math.random to pick a random button by id
+; 7.	Display player choice and computer choice
+; 8.	Determine the winner or a tie
+; a.	Create function checkWinner() with the logic for winning the game check tic tac toe game
+; 9.	Display result (winner or a tie)
+; a.	Display result on the screen 
+; 10.	User will have a Reset button to start the game over 
+
